@@ -1,4 +1,5 @@
 # About
 
-This is where you put the contents of your *About* page. Like all your pages, it's in [Markdown](https://guides.github.com/features/mastering-markdown/) format.
+I am a self-studied data scientist and machine learning practicioner. I obtained my M.Sc. in Economics from Stockholm University and spent  two years as a technical project manager working on digitization and business intelligence projects. With some statistical programming background in R and Matlab, I decided to enter the exciting field of machine learning in 2016 by myself. I completed many MOOCs, of which I would like to mention and recommend the fantastic courses from deeplearning.ai and fast.ai. Currently I'm working as self-employed machine learning consultant by solving small data NLP problems with deep learning and transfer learning. 
 
+I'm from the beautiful town of Regensburg, Germany, but the center of my life is now the even more beautiful Prague, Czech Republic. I like guitars, hiking, Bruce Springsteen, enjoying a beer with friends, traveling to Spain, skiing and many other things. I try to teach Czech to machines and to myself. And I really hope you will enjoy some of my blogposts. 
