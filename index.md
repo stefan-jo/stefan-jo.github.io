@@ -14,9 +14,9 @@ What I have planned for the upcoming months:
 - Dig deeper into the brand-new [fastai v2](https://docs.fast.ai/) library and share my insights
 - Train a BERT language model from scratch and share it on the [huggingface model hub](https://huggingface.co/models)
 
-In the meantime, feel free to check out three projects that I have been working on earlier this year: 
-- Tutorial on using Naive Bayes features in a Logistic Regression model in the kaggle competition [Real or Not? NLP with Disaster Tweets](https://www.kaggle.com/stefanjo/getting-started-with-nlp-nb-lr-baseline)
-- Applying Universal Language Model Fine-tuning for Text Classification (ULMFiT) on the [Twitter US Airline Sentiment dataset](https://github.com/stefan-jo/USAirlineSent/blob/master/tweets_ULMFit_final.ipynb)
+In the meantime, have a look at some projects that I have been working on earlier this year: 
+- [Sentiment analysis](https://github.com/stefan-jo/USAirlineSent/blob/master/tweets_ULMFit_final.ipynb) with Universal Language Model Fine-tuning for Text classification
+- [Disaster tweet classification](https://www.kaggle.com/stefanjo/getting-started-with-nlp-nb-lr-baseline)) using Naive Bayes features in a Logistic Regression model 
 - Building an [image recognition webapp](https://github.com/stefan-jo/guitar_classifier/blob/master/guitar_classifier_model.ipynb) with fastai v2
 
 Head over to [About](https://stefan-jo.github.io/about.html) to find out more about me or dive straight into the posts below. 
