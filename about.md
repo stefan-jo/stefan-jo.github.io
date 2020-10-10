@@ -1,5 +1,7 @@
 # About
 
-I am a self-studied data scientist and machine learning practicioner. I obtained my M.Sc. in Economics from Stockholm University and spent  two years as a technical project manager working on digitization and business intelligence projects in industry. With some statistical programming background in R and Matlab, I decided to enter the exciting field of machine learning by myself in 2016. I completed many MOOCs in Python and machine learning, of which I would like to mention and recommend the fantastic courses from [deeplearning.ai](https://www.deeplearning.ai/deep-learning-specialization/) and [fast.ai](https://www.fast.ai). Currently I'm working as self-employed machine learning consultant with a focus on solving small data NLP problems with deep learning and transfer learning. 
+Data Scientist, Applied NLP Researcher, Project Manager
 
-I'm from the beautiful town of Regensburg, Germany, but the center of my life is now the even more beautiful Prague, Czech Republic. I like guitars, hiking, Bruce Springsteen, enjoying a beer with friends, traveling to Spain, skiing and many other things. I try to teach Czech to machines and to myself. And I really hope you will enjoy some of my blog posts. 
+I am a data scientist and machine learning practicioner with over four years experience in data projects. After completing my M.Sc. in Applied Economics at Stockholm University I worked two years as technical project manager in the automotive industry, leading data-driven projects from initiation to production. I spent the last two years working as a data scientist on projects ranging from language modelling, sentiment analysis and text classification for customer reviews to tabular and time-series classification in the medical domain. 
+
+I am available for freelance consulting work under: s.josef.consulting@gmail.com
