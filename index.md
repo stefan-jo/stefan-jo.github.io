@@ -16,7 +16,7 @@ What I have planned for the upcoming months:
 
 In the meantime, have a look at some projects that I have been working on earlier this year: 
 - [Sentiment analysis](https://github.com/stefan-jo/USAirlineSent/blob/master/tweets_ULMFit_final.ipynb) with Universal Language Model Fine-tuning for Text classification
-- [Disaster tweet classification](https://www.kaggle.com/stefanjo/getting-started-with-nlp-nb-lr-baseline)) using Naive Bayes features in a Logistic Regression model 
+- [Disaster tweet classification](https://www.kaggle.com/stefanjo/getting-started-with-nlp-nb-lr-baseline) using Naive Bayes features in a Logistic Regression model 
 - Building an [image recognition webapp](https://github.com/stefan-jo/guitar_classifier/blob/master/guitar_classifier_model.ipynb) with fastai v2
 
 Head over to [About](https://stefan-jo.github.io/about.html) to find out more about me or dive straight into the posts below. 
