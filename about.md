@@ -6,6 +6,6 @@ I am a data scientist and machine learning practicioner with over four years of 
 
 On this blog I plan to write about data science, machine learning, NLP, how to manage AI projects as well as data ethics and how AI affects society. 
 
-I am available for freelance consulting work as data scientist or project manager. 
+I am available for freelance consulting work. 
 
 Feel free to reach out to me: **s.josef.consulting@gmail.com**
