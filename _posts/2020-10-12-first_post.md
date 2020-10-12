@@ -30,5 +30,7 @@ I will divide this blog post into three sections:
 
 ## 3. My personal highlights
 
+- Joel Grus (Principal Engineer @ Capital Group): Proof-of-concept delight
 - Christine Gerpheide (CTO @ Bespoke): NLP research to production
 - Moshe Wasserblat (NLP & DL Research Manager @ Intel): Efficient DL NLP in production
+
