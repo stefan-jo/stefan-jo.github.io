@@ -44,9 +44,20 @@ Data annotation or labelling is often considered an uncool, unqualified and stre
 
 ## 3. My personal highlights
 
+In this last section I want to briefly summarize my three personal highlights from the conference. 
+
 - Joel Grus (Principal Engineer @ Capital Group): Proof-of-concept delight
-- Christine Gerpheide (CTO @ Bespoke): NLP research to production
+
+Christine Gerpheide, CTO at [Bespoke](https://www.be-spoke.io/index.html), presented two case studies about taking NLP from research to production. After giving a crash course on building chatbots, Christine walked us through the steps Bespoke takes before putting NLP models in production:
+1. Identify opportunities for applying machine learning. It's ok to use simple methods at this stage, e.g. regular expression
+2. Do research, then build a prototype. Benchmark different approaches, e.g. baseline vs. custom dev vs. cloud service
+3. Have a go/no go meeting. Decide if there is potential and which approach to follow
+4. Build a Minimum Viable Product and test it on a sub-set of users to get real feedback
+5. Improve based on feedback, clearn up the code and roll-out to all users
+
 - Moshe Wasserblat (NLP & DL Research Manager @ Intel): Efficient DL NLP in production
+
+Thanks for reading! Please let me know your feedback!
 
 
 
