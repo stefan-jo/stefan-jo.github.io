@@ -22,7 +22,7 @@ Just to mention a few of the many exciting use cases that were presented at the 
 - above-human-level-performance document classification and *abstractive* (!) summarization of documents in the legal domain
 - using ML-powered intent recognition, curated templates and knowledge graphs to build effective chatbots
 
-Which tools are used in industry?
+**Which tools are used in industry?**
 
 Even though from following the Deep Learning community on twitter one might have the impression that everyone uses the huggingface transformers library (disclaimer: I'm a big fan myself) the reality paints a somewhat different picture. According to the above-mentioned survey, the three most-used NLP libraries are Spark NLP, spaCy and Allen NLP, with huggingface landing on rank 7 (which is still very impressive for such a young library). Which tool is the right fit for a given project strongly depends on the specific requirements. Spark NLP and spaCy provide easy-to-use, reliable and efficient libraries for a variety of practical NLP use cases. Allen NLP might be a better suited for researchers. For state-of-the-art pre-trained transformer models one very likely would choose huggingface transformers. For topic modelling gensim is still very popular. For part-of-speech-tagging or dependency parsing Stanford CoreNLP might be the best choice. 
 
@@ -31,6 +31,22 @@ Even though a majority of companies use at least one of the leading NLP cloud se
 Please download and have a look at the [2020 NLP Survey Report](https://gradientflow.com/2020nlpsurvey/) for more details. 
 
 ## 2. The importance of data annotation
+
+Data annotation or labelling is often considered an uncool, unqualified and strenuous task that *has to be* completed before finally being able to train a fancy model. However, in reality it is one of the most crucial tasks of completing a successful machine learning project that deserves more attention. Without clear guidelines and best practices, data annotation can become very expensive and even lead to the failure of machine learning projects due to insufficient data quality. It was great to see the topic being discussed repeatedly during several session at the NLP Summit 2020. Rebecca Leung and Marianne Mak from John Snow Labs even gave an entire talk about "Lessons learned annotating training data for healthcare NLP projects". Here are many of their insights as well as some ideas from other talks or my own experience. 
+
+**Data annotation is not unqualified work!** While it may be relatively easy to draw a bounding box around a street sign, most NLP annotation tasks require serious skills. If you want to have a good dataset, annotation needs to be done by qualified domain-experts. For sensitive areas such as healthcare or legal, this might even require having a PhD in the respective field. Moreover, annotation requires incredible focus, speed and endurance. Great annotators should be appreciated and well compensated. 
+
+**Go for quality, not quantity!** Even if you have experts annotating your data, they can still make some mistakes. Some label types (e.g. sentiment) are very subjective and depend on the opinion of a given annotator. Training a machine learning model on smaller, high-quality datasets can lead to better results than training on larger, but noisy and inconsistent data. If the annotation task is subjective or ambiguous, it may help to let two (or more) annotators label the same examples. If the annotators agree, the label is accepted, if they disagree, majority voting or common review can be the solution.
+
+**Define and review clear annotation guidelines!**
+
+
+
+**Align expectations of your team and clients!** 
+
+
+
+**Use annotation tools!!!** If there was
 
 - Multiple labelers, consensus
 - Alignment sessions with team and clients
