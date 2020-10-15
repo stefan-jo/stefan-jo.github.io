@@ -40,7 +40,7 @@ Data annotation or labelling is often considered an uncool, unqualified and stre
 
 **Define and review clear annotation guidelines!** It is essential to clearly define guidelines for each annotation project. Formulating guidelines helps current annotators structure their thoughts and future annotators during onboarding. However, these guidelines are not set in stone but can evolve over time. It is important to hold regular (e.g. weekly) review sessions with team members, data scientists and clients to make sure everybody is and stays aligned. 
 
-**Use annotation tools!!!** If there is one lesson learned about data annotation it is tools, tools, tools! It is common best practice to use software tools to significantly speed up the annotation process by providing a clear interface, keyboard shortcuts and workflow support. Moreover, putting the model in the loop and using active learning techniques can make annotators even more efficient. Companies either build their own tools or use commerical ones, such as [Prodigy](https://prodi.gy/) from the makers of spaCy. 
+**Use annotation tools!!!** If there is only one lesson learned about data annotation it is to use specialized tools. It is common best practice to use software tools to significantly speed up the annotation process by providing a clear interface, keyboard shortcuts and workflow support. Moreover, putting the model in the loop and using active learning techniques can make annotators even more efficient. Companies either build their own tools or use commerical ones, such as [Prodigy](https://prodi.gy/) from the makers of spaCy. 
 
 ## 3. My personal highlights
 
