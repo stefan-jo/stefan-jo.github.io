@@ -32,28 +32,15 @@ Please download and have a look at the [2020 NLP Survey Report](https://gradient
 
 ## 2. The importance of data annotation
 
-Data annotation or labelling is often considered an uncool, unqualified and strenuous task that *has to be* completed before finally being able to train a fancy model. However, in reality it is one of the most crucial tasks of completing a successful machine learning project that deserves more attention. Without clear guidelines and best practices, data annotation can become very expensive and even lead to the failure of machine learning projects due to insufficient data quality. It was great to see the topic being discussed repeatedly during several session at the NLP Summit 2020. Rebecca Leung and Marianne Mak from John Snow Labs even gave an entire talk about "Lessons learned annotating training data for healthcare NLP projects". Here are many of their insights as well as some ideas from other talks or my own experience. 
+Data annotation or labelling is often considered an uncool, unqualified and strenuous task that *has to be* completed before finally being able to train a fancy model. However, in reality it is one of the most crucial tasks of completing a successful machine learning project that deserves more attention. Without clear guidelines and best practices, data annotation can become very expensive and even lead to the failure of machine learning projects due to insufficient data quality. It was great to see the topic being discussed repeatedly during several session at the NLP Summit 2020. Rebecca Leung and Marianne Mak from John Snow Labs even gave an entire talk about "Lessons learned annotating training data for healthcare NLP projects". Here are some of their insights as well as ideas from other talks or my own experience. 
 
 **Data annotation is not unqualified work!** While it may be relatively easy to draw a bounding box around a street sign, most NLP annotation tasks require serious skills. If you want to have a good dataset, annotation needs to be done by qualified domain-experts. For sensitive areas such as healthcare or legal, this might even require having a PhD in the respective field. Moreover, annotation requires incredible focus, speed and endurance. Great annotators should be appreciated and well compensated. 
 
-**Go for quality, not quantity!** Even if you have experts annotating your data, they can still make some mistakes. Some label types (e.g. sentiment) are very subjective and depend on the opinion of a given annotator. Training a machine learning model on smaller, high-quality datasets can lead to better results than training on larger, but noisy and inconsistent data. If the annotation task is subjective or ambiguous, it may help to let two (or more) annotators label the same examples. If the annotators agree, the label is accepted, if they disagree, majority voting or common review can be the solution.
+**Go for quality, not quantity!** Even if you have experts annotating your data, they can still make some mistakes. Some label types (e.g. sentiment) are very subjective and depend on the opinion of a given annotator. Training a machine learning model on smaller, high-quality datasets can lead to better results than training on larger, but noisy and inconsistent data. If the annotation task is subjective or ambiguous, it may help to let two (or more) annotators label the same examples and go by consensus or majority voting.
 
-**Define and review clear annotation guidelines!**
+**Define and review clear annotation guidelines!** It is essential to clearly define guidelines for each annotation project. Formulating guidelines helps current annotators structure their thoughts and future annotators during onboarding. However, these guidelines are not set in stone but can evolve over time. It is important to hold regular (e.g. weekly) review sessions with team members, data scientists and clients to make sure everybody is and stays aligned. 
 
-
-
-**Align expectations of your team and clients!** 
-
-
-
-**Use annotation tools!!!** If there was
-
-- Multiple labelers, consensus
-- Alignment sessions with team and clients
-- Define and review clear annotation guidelines
-- Use domain experts for annotation!
-- Use annotation tools! Prodigy or in-house
-- Aim for high IAA (Inter annotator agreement)
+**Use annotation tools!!!** If there is one lesson learned about data annotation it is tools, tools, tools! It is common best practice to use software tools to significantly speed up the annotation process by providing a clear interface, keyboard shortcuts and workflow support. Moreover, putting the model in the loop and using active learning techniques can make annotators even more efficient. Companies either build their own tools or use commerical ones, such as [Prodigy](https://prodi.gy/) from the makers of spaCy. 
 
 ## 3. My personal highlights
 
