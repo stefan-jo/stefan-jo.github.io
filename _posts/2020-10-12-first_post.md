@@ -8,7 +8,7 @@ Overall I really enjoyed the conference. I especially liked the focus on *applie
 
 I will divide this blog post into three sections:
 1. The state of Applied NLP in 2020
-2. The importance of data annotation
+2. On the importance of data annotation
 3. My personal highlights
 
 ## 1. The state of Applied NLP in 2020
@@ -30,7 +30,7 @@ Even though a majority of companies use at least one of the leading NLP cloud se
 
 Please download and have a look at the [2020 NLP Survey Report](https://gradientflow.com/2020nlpsurvey/) for more details. 
 
-## 2. The importance of data annotation
+## 2. On the importance of data annotation
 
 Data annotation or labelling is often considered an uncool, unqualified and strenuous task that *has to be* completed before finally being able to train a fancy model. However, in reality it is one of the most crucial tasks of completing a successful machine learning project that deserves more attention. Without clear guidelines and best practices, data annotation can become very expensive and even lead to the failure of machine learning projects due to insufficient data quality. It was great to see the topic being discussed repeatedly during several session at the NLP Summit 2020. Rebecca Leung and Marianne Mak from John Snow Labs even gave an entire talk about "Lessons learned annotating training data for healthcare NLP projects". Here are some of their insights as well as ideas from other talks or my own experience. 
 
