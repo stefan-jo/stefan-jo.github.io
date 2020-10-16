@@ -48,10 +48,10 @@ Joel Grus, Principal Engineer at Capital Group, gave an insightful and entertain
 4. Scope down relentlessly: simplify the problem until it is the simplest useful version 
 5. Create a data model: Joel prefers a typed representation using NamedTuple over pandas for NLP datasets, since those often do not come in a tabular structure but rather have a one-to-many relationship, e.g. one line of text has multiple labels or named entities
 6. Explore and clean your data: don't spend ages here but do the necessary cleanup
-7. Get labels: either from the dataset or create labels yourself using tools like Prodigy or [Snorkel](https://www.snorkel.ai/)
-8. Choose a really simple off-the-shelf model and adapt it just enough to work on your problem
+7. Get labels: either from the dataset or create labels yourself using Prodigy or [Snorkel](https://www.snorkel.ai/)
+8. Choose a really simple model and adapt it just enough to work on your problem, e.g. spaCy's off-the-shelf text classification model
 9. Train the model and evaluate on a hold out set using the right metrics
-10. Build a demo web app with a text field and get predictions functionality. [Streamlit](https://www.streamlit.io/) makes is extremely easy
+10. Build a very simple demo web app with a text field and functionality to return predictions. [Streamlit](https://www.streamlit.io/) makes is extremely easy
 11. Take a risk and give the demo to customers. If they like it, build a production version. If not go back and improve the PoC.
 
 Christine Gerpheide, CTO at [Bespoke](https://www.be-spoke.io/index.html), presented two case studies about taking NLP from research to production. After giving a crash course on building chatbots, Christine walked us through the steps Bespoke takes before putting NLP models in production:
