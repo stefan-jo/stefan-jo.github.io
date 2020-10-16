@@ -41,7 +41,18 @@ Data annotation or labelling is often considered an uncool, unqualified and stre
 
 In this last section I want to briefly summarize my three personal highlights from the conference. 
 
-Joel Grus, Principal Engineer at Capital Group, gave an insightful entertaining talked titled "Proof-of-concept delight". 
+Joel Grus, Principal Engineer at Capital Group, gave an insightful and entertaining keynote titled "Proof-of-Concept delight". Drawing on his own experience, Joel demonstrated how to build a PoC in about four hours using modern NLP tools. Here are the main steps he follows: 
+1. Identify the business problem: find out what task needs to be solved
+2. Find the ML problem: formulate the task as a machine learning problem
+3. Find a dataset: either you already have data or you need to find a suitable dataset
+4. Scope down relentlessly: simplify the problem until it is the simplest useful version 
+5. Create a data model: Joel prefers a typed representation using NamedTuple over pandas for NLP datasets, since those often do not come in a tabular structure but rather have a one-to-many relationship, e.g. one line of text has multiple labels or named entities
+6. Explore and clean your data: don't spend ages here but do the necessary cleanup
+7. Get labels: either from the dataset or create labels yourself using tools like Prodigy or [Snorkel](https://www.snorkel.ai/)
+8. Choose a really simple off-the-shelf model and adapt it just enough to work on your problem
+9. Train the model and evaluate on a hold out set using the right metrics
+10. Build a demo web app with a text field and get predictions functionality. [Streamlit](https://www.streamlit.io/) makes is extremely easy
+11. Take a risk and give the demo to customers. If they like it, build a production version. If not go back and improve the PoC.
 
 Christine Gerpheide, CTO at [Bespoke](https://www.be-spoke.io/index.html), presented two case studies about taking NLP from research to production. After giving a crash course on building chatbots, Christine walked us through the steps Bespoke takes before putting NLP models in production:
 1. Identify opportunities for applying machine learning. It's ok to use simple methods at this stage, e.g. pattern matching using regular expression
