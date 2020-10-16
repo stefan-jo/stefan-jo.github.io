@@ -6,11 +6,6 @@ I want to kick off this blog by describing my impressions and take-aways from at
 
 Overall I really enjoyed the conference. I especially liked the focus on *applied* NLP, presenting many specific NLP use cases from industry as well as topics such as product management, model deployment and data annotation. Working myself at the intersection of applied NLP research, data science and engineering, I recognized many common pain points and lessons learned from my own experience during the conference. Please note that this blog post only describes my own experience and doesn't give a full picture of the conference. Even though I tried to attend as many sessions as possible, I am sure that I still missed some great talks. 
 
-I will divide this blog post into three sections:
-1. The state of Applied NLP in 2020
-2. On the importance of data annotation
-3. My personal highlights
-
 ## 1. The state of Applied NLP in 2020
 
 The field of applied NLP has made tremendous progress over the last couple of years and continues to grow. Not only are academic benchmarks being beaten at a regular rate, but companies are also increasingly applying these new technologies to their use cases. The field is still very young, with only a minority of companies having NLP models in production for more than five years. However, companies are investing. According to the [2020 NLP Survey Report](https://gradientflow.com/2020nlpsurvey/) by Ben Lorica and Paco Nathan, "53% of respondents who are Technical Leaders stated their NLP budget was at least 10% higher compared to 2019". 
