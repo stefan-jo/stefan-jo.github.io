@@ -24,7 +24,7 @@ Just to mention a few of the many exciting use cases that were presented at the 
 
 **Which tools are used in industry?**
 
-Even though from following the Deep Learning community on twitter one might have the impression that everyone uses the huggingface transformers library (disclaimer: I'm a big fan myself) the reality paints a somewhat different picture. According to the above-mentioned survey, the three most-used NLP libraries are Spark NLP, spaCy and Allen NLP, with huggingface landing on rank 7 (which is still very impressive for such a young library). Which tool is the right fit for a given project strongly depends on the specific requirements. Spark NLP and spaCy provide easy-to-use, reliable and efficient libraries for a variety of practical NLP use cases. Allen NLP might be a better suited for researchers. For state-of-the-art pre-trained transformer models one very likely would choose huggingface transformers. For topic modelling gensim is still very popular. For part-of-speech-tagging or dependency parsing Stanford CoreNLP might be the best choice. 
+Even though from following the Deep Learning community on twitter one might have the impression that everyone uses the huggingface transformers library (disclaimer: I'm a big fan myself) the reality paints a somewhat different picture. According to the above-mentioned survey, the three most-used NLP libraries are Spark NLP, spaCy and Allen NLP, with huggingface landing on rank 7 (which is still very impressive for such a young library). Which tool is the right fit for a given project strongly depends on the specific requirements. Spark NLP and spaCy provide easy-to-use, reliable and efficient libraries for a variety of practical NLP use cases. Allen NLP might be a better suited for researchers. For state-of-the-art pre-trained transformer models one very likely would choose huggingface transformers. For topic modelling gensim is still very popular. For part-of-speech-tagging or dependency parsing Stanford CoreNLP might be the best choice. A newcomer is the Berlin-based starup Rasa that provides an open source framework and a tool called Rasa X for developing contextual AI assistants. 
 
 Even though a majority of companies use at least one of the leading NLP cloud services, there are still many challenges to be considered. Among them are price, missing customizability and features, low accuracy, unwillingness to share data and missing support of certain languages. 
 
@@ -46,16 +46,16 @@ Data annotation or labelling is often considered an uncool, unqualified and stre
 
 In this last section I want to briefly summarize my three personal highlights from the conference. 
 
-- Joel Grus (Principal Engineer @ Capital Group): Proof-of-concept delight
+Joel Grus, Principal Engineer at Capital Group, gave an insightful entertaining talked titled "Proof-of-concept delight". 
 
-Christine Gerpheide, CTO at [Bespoke](https://www.be-spoke.io/index.html), presented two case studies about taking NLP from research to production. After giving a crash course on building chatbots, Christine walked us through the steps Bespoke takes before putting NLP models in production:
-1. Identify opportunities for applying machine learning. It's ok to use simple methods at this stage, e.g. regular expression
-2. Do research, then build a prototype. Benchmark different approaches, e.g. baseline vs. custom dev vs. cloud service
+Christine Gerpheide, CTO at Bespoke, presented two case studies about taking NLP from research to production. After giving a crash course on building chatbots, Christine walked us through the steps Bespoke takes before putting NLP models in production:
+1. Identify opportunities for applying machine learning. It's ok to use simple methods at this stage, e.g. pattern matching using regular expression
+2. Do research, then build a prototype. Benchmark different approaches, e.g. baseline vs. custom development vs. cloud service
 3. Have a go/no go meeting. Decide if there is potential and which approach to follow
 4. Build a Minimum Viable Product and test it on a sub-set of users to get real feedback
 5. Improve based on feedback, clearn up the code and roll-out to all users
 
-- Moshe Wasserblat (NLP & DL Research Manager @ Intel): Efficient DL NLP in production
+Moshe Wasserblat, NLP & DL Research Manager at the Intel AI Lab, gave a talk on the efficient use of deep learning in production. Given the size and computational cost of recent transformer-based language models (think of T5, Turing-NLG and especially GPT-3) it is important to also consider the practicality of implementing these models in production. There are several attempts to make transformer models smaller, such as quantization, pruning, early prediction, weight sharing or distillation. [DistilBERT](https://arxiv.org/abs/1910.01108) from huggingface is 40% smaller and 60% faster than BERT, while maintaining 97% of its language understanding capabilities. Other even smaller yet powerful transformer models are MobileBERT, TinyBERT and aLBERT, which are easier to fine-tune and deploy. For more compression and inference speed up, it is even possible to distil BERT into simpler models like LSTMs, CNNs or CBOW models. 
 
 Thanks for reading! Please let me know your feedback!
 
