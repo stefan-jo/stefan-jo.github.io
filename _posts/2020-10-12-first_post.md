@@ -1,7 +1,5 @@
 # NLP Summit 2020
 
-[Note: This blog post is work in progress]
-
 I want to kick off this blog by describing my impressions and take-aways from attending the [NLP Summit 2020: Applied Natural Language Processing](https://www.nlpsummit.org/) which took place virtually between October 6th and 9th. [John Snow Labs](https://www.johnsnowlabs.com/), the main creator behind [Spark NLP](https://github.com/JohnSnowLabs/spark-nlp) and organizer of the summit put together a diverse and interesting program for the four conference days.
 
 Overall I really enjoyed the conference. I especially liked the focus on *applied* NLP, presenting many specific NLP use cases from industry as well as topics such as product management, model deployment and data annotation. Working myself at the intersection of applied NLP research, data science and engineering, I recognized many common pain points and lessons learned from my own experience during the conference. Please note that this blog post only describes my own experience and doesn't give a full picture of the conference. Even though I tried to attend as many sessions as possible, I am sure that I still missed some great talks. 
@@ -59,7 +57,8 @@ Christine Gerpheide, CTO at [Bespoke](https://www.be-spoke.io/index.html), prese
 2. Do research, then build a prototype. Benchmark different approaches, e.g. baseline vs. custom development vs. cloud service
 3. Have a go/no go meeting. Decide if there is potential and which approach to follow
 4. Build a Minimum Viable Product and test it on a sub-set of users to get real feedback
-5. Improve based on feedback, clearn up the code and roll-out to all users
+5. Improve based on feedback, clean up the code and roll-out to all users
+The other use case presented was predictive typing. Christine also spent some time talking about the advantages of using in-house machine learning development rather than commercial services. Among them were the possibility to customize models, inspect how models are behaving and better control of model outputs. 
 
 Moshe Wasserblat, NLP & DL Research Manager at the [Intel AI Lab](https://www.intel.com/content/www/us/en/artificial-intelligence/overview.html), gave a talk on the efficient use of deep learning in production. Given the size and computational cost of recent transformer-based language models (think of T5, Turing-NLG and especially GPT-3) it is important to also consider the practicality of implementing these models in production. There are several attempts to make transformer models smaller, such as quantization, pruning, early prediction, weight sharing or distillation. [DistilBERT](https://arxiv.org/abs/1910.01108) from huggingface is 40% smaller and 60% faster than BERT, while maintaining 97% of its language understanding capabilities. Other even smaller yet powerful transformer models are [MobileBERT](https://arxiv.org/abs/2004.02984), [TinyBERT](https://arxiv.org/abs/1909.10351) and [aLBERT](https://arxiv.org/abs/1909.11942), which are easier to fine-tune and deploy. For extreme compression and inference speed up, it is even possible to distil BERT into simpler models like LSTMs, CNNs or CBOW models. Personally I am very excited about the topic of making state-of-the-art NLP models more efficient for practical purposes. There is more to come at the [SustaiNLP](https://sites.google.com/view/sustainlp2020/home) workshop at [EMNLP 2020](https://2020.emnlp.org/). 
 
