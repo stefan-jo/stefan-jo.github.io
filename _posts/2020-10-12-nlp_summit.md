@@ -4,7 +4,7 @@ I want to kick off this blog by describing my impressions and take-aways from at
 
 Overall I really enjoyed the conference. I especially liked the focus on *applied* NLP, presenting many specific NLP use cases from industry as well as topics such as product management, model deployment and data annotation. Working myself at the intersection of applied NLP research, data science and engineering, I recognized many common pain points and lessons learned from my own experience during the conference. Please note that this blog post only describes my own experience and doesn't give a full picture of the conference. Even though I tried to attend as many sessions as possible, I am sure that I still missed some great talks. 
 
-## 1. The state of Applied NLP in 2020
+## The state of Applied NLP in 2020
 
 The field of applied NLP has made tremendous progress over the last couple of years and continues to grow. Not only are academic benchmarks being beaten at a regular rate, but companies are also increasingly applying these new technologies to their use cases. The field is still very young, with only a minority of companies having NLP models in production for more than five years. However, companies are investing. According to the [2020 NLP Survey Report](https://gradientflow.com/2020nlpsurvey/) by Ben Lorica and Paco Nathan, "53% of respondents who are Technical Leaders stated their NLP budget was at least 10% higher compared to 2019". 
 
@@ -23,7 +23,7 @@ Even though a majority of companies use at least one of the leading NLP cloud se
 
 Please download and have a look at the [2020 NLP Survey Report](https://gradientflow.com/2020nlpsurvey/) for more details. 
 
-## 2. On the importance of data annotation
+## On the importance of data annotation
 
 Data annotation or labelling is often considered an uncool, unqualified and strenuous task that *has to be* completed before finally being able to train a fancy model. However, in reality it is one of the most crucial tasks of completing a successful machine learning project that deserves more attention. Without clear guidelines and best practices, data annotation can become very expensive and even lead to the failure of machine learning projects due to insufficient data quality. It was great to see the topic being discussed repeatedly during several session at the NLP Summit 2020. Rebecca Leung and Marianne Mak from John Snow Labs even gave an entire talk about "Lessons learned annotating training data for healthcare NLP projects". Here are some of their insights as well as ideas from other talks and my own experience. 
 
@@ -35,7 +35,7 @@ Data annotation or labelling is often considered an uncool, unqualified and stre
 
 **Use annotation tools!!!** If there is only one lesson learned about data annotation it is to use specialized tools. It is common best practice to use software tools to significantly speed up the annotation process by providing a clear interface, keyboard shortcuts and workflow support. Moreover, putting the model in the loop and using active learning techniques can make annotators even more efficient. Companies either build their own tools or use commerical ones, such as [Prodigy](https://prodi.gy/) from the makers of spaCy. 
 
-## 3. My personal highlights
+## My personal highlights
 
 In this last section I want to briefly summarize my three personal highlights from the conference. 
 
