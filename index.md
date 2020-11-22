@@ -6,18 +6,18 @@ There are many good reasons to start your own blog: Improving your technical wri
 
 On this blog I want to share personal projects covering data science, machine learning and natural language processing, as well as thoughts on topics such as AI project management, data ethics and how AI affects the economy and society. 
 
-What I have planned for the upcoming months:
-- Kick off this blog by summing up my impressions from the [NLP Summit 2020](https://www.nlpsummit.org/) 
-- Write a series of posts with lessons learned from reading [Building Machine Learning Powered Applications: Going from Idea to Product](https://www.oreilly.com/library/view/building-machine-learning/9781492045106/) by Emmanuel Ameisen
-- Write a tutorial on building a state-of-the-art multi-label classification model for multi-lingual texts using [huggingface transformers](https://huggingface.co/transformers/)
-- Complete a tabular kaggle competition and share my results here, e.g. the [Santander Value Prediction Challenge](https://www.kaggle.com/c/santander-value-prediction-challenge/data)
-- Dig deeper into the brand-new [fastai v2](https://docs.fast.ai/) library and share my insights
-- Train a BERT language model from scratch and share it on the [huggingface model hub](https://huggingface.co/models)
+Please check out my first blog posts:
+- I kicked off this blog by summing up my impressions from the [NLP Summit 2020](https://www.nlpsummit.org/) 
+- My second blog post describes my experience at [EMNLP 2020](https://2020.emnlp.org/) (work in progress)
 
-In the meantime, have a look at some projects that I have been working on earlier this year: 
+Feel free to also look at two projects from earlier this year: 
 - [Sentiment analysis](https://github.com/stefan-jo/USAirlineSent/blob/master/tweets_ULMFit_final.ipynb) with Universal Language Model Fine-tuning for Text classification
-- [Disaster tweet classification](https://www.kaggle.com/stefanjo/getting-started-with-nlp-nb-lr-baseline) using Naive Bayes features in a Logistic Regression model 
 - Building an [image recognition webapp](https://github.com/stefan-jo/guitar_classifier/blob/master/guitar_classifier_model.ipynb) with fastai v2, Jupyter, Voilà and Binder
+
+What I have planned for the upcoming months:
+- Write an in-depth tutorial for fastai v2 text, showing details like subword tokenization, multi-label classification, QRNN and inference
+- Train a BERT language model from scratch and share it on the [huggingface model hub](https://huggingface.co/models)
+- When the new fast.ai Deep Learning course part 2 comes out, I plan to follow along here with posting projects and tutorials
 
 Head over to [About](https://stefan-jo.github.io/about.html) to find out more about me or dive straight into the posts below. 
 
